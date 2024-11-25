@@ -1,0 +1,3 @@
+D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/CMakeFiles/ADIS16467_Try1.elf.dir
+D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

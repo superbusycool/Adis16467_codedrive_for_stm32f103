@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ADIS16467_Try1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADIS16467_Try1.elf">
+				<Option output="D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/ADIS16467_Try1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Core/ADIS16467"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADIS16467_Try1.elf"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADIS16467_Try1.elf/fast">
+				<Option output="D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/ADIS16467_Try1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Core/ADIS16467"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\stm32environment\arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADIS16467_Try1.elf/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/stm32CubeMx/ADIS16467_Try1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/ADIS16467/adis16467.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/ADIS16467/adis16467.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK/QuaternionEKF.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK/QuaternionEKF.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK/arm_math.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK/ins_task.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK/ins_task.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK/kalman_filter.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/INS_TASK/kalman_filter.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc/dma.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc/gpio.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc/main.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc/spi.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc/stm32f1xx_it.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Inc/usart.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/dma.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/gpio.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/main.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/spi.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/stm32f1xx_it.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/syscalls.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/sysmem.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/system_stm32f1xx.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Src/usart.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/CMSIS/LICENSE.txt">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/STM32F103C8TX_FLASH.ld">
+			<Option target="ADIS16467_Try1.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32CubeMx/ADIS16467_Try1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
